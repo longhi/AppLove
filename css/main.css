@@ -107,13 +107,23 @@ header div a{
 /*seccion*/
 .texts{
   background-image: url(../assets/images/bg-home.jpg);/*imagen de la section*/
-  background-size: 100% 100%;/*imagen de fondo ocupe todo */
-    text-align: center;/*texto centrado*/
-    padding-top: 150px;/*parte superior de la imagen */
-    padding-bottom: 170px;/*parte inferior de la imagen*/
-    padding-right: 50px;/*dirija a la derecha*/
-    margin-top: 0px; /*sin margen*/
-    box-sizing: border-box; /*borde de la caja*/
+  background-size: 100% ;/*imagen de fondo ocupe todo */
+
+  height: 510px;
+  box-sizing: border-box; /*borde de la caja*/
     color: #fff;/*color de toda la letra*/
+    text-align: center;/*texto centrado*/
     font-weight: bold;/* marcado profundo del color del texto*/
+
+}
+.text_1{  top: 215px;
+          left: 270px;
+  position: absolute;
+
+}
+ h1{
+  font-size: 50px;
+}
+a{
+
 }
